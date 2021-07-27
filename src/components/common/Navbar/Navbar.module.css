@@ -1,0 +1,13 @@
+.navBtn {
+  @apply border bg-grey bg-white p-1 px-2 flex-grow-0  focus:outline-none;
+  @apply text-xs sm:text-base font-mono font-semibold ml-2 sm:ml-6;
+  @apply shadow-superiority transition duration-300;
+  @apply hover:shadow-none hover:transform hover:translate-x-1 hover:translate-y-1;
+}
+
+.resumeBtn {
+  @apply border border-mandarin bg-mandarin p-1 px-2 flex-grow-0  focus:outline-none;
+  @apply text-xs sm:text-base text-white font-mono font-semibold ml-2 sm:ml-6;
+  @apply shadow-superiority transition duration-300;
+  @apply hover:shadow-none hover:transform hover:translate-x-1 hover:translate-y-1;
+}
